@@ -47,20 +47,20 @@ const typeDefs = gql`
 const todos = [
   { task: "cook food", id: "2321", person: "Mike" },
   { task: "clean", id: "600", person: "Jack" },
-  { task: "wash", id: "400", person: "Mello" },
+  { task: "wash", id: "400", person: "Tim" },
 ];
 
 const people = [
-  { name: "Makkzz", age: 24 },
-  { name: "Mello", age: 29 },
+  { name: "Marian", age: 25 },
+  { name: "Tim", age: 29 },
 ];
 
 const p1 = {
-  name: "Makk",
+  name: "Marian",
   age: 25,
 };
 const p2 = {
-  name: "Jello",
+  name: "Annie",
   age: 21,
 };
 const p3 = {
@@ -71,7 +71,7 @@ const p3 = {
 const resolvers = {
   Query: {
     message: () => {
-      return "hey";
+      return "Oiii";
     },
     year: () => {
       return 2022;
